@@ -1,7 +1,7 @@
-\begin{tikzpicture}[scale = 1.0]
+\begin{tikzpicture}[scale = 1.5, circuitikz/bipoles/length = 1.5cm]
 
   \tiny
-  
+
   \draw (0, 0) coordinate (upper) to [capacitor, l = 0.01<\micro\farad>, a=$C_1$] (0, -6) coordinate (lower);
 
   \draw [draw=magenta, very thick] (upper) -- ++(5, 0) coordinate (bus 1 upper) node [midway, above] {$V$};

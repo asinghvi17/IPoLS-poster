@@ -18,115 +18,7 @@
 
 
 \refsection{0}
-  \datalist[entry]{nty/global//global/global}
-    \entry{gjorgjieva2014}{article}{}
-      \name{author}{3}{}{%
-        {{hash=557194da12763243440e9402d4ffaf30}{%
-           family={Gjorgjieva},
-           familyi={G\bibinitperiod},
-           given={Julijana},
-           giveni={J\bibinitperiod}}}%
-        {{hash=135dcf78e7a1eb2b7250686dad1bd197}{%
-           family={Biron},
-           familyi={B\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=b8450b545fb81e039132859d2fba9061}{%
-           family={Haspel},
-           familyi={H\bibinitperiod},
-           given={Gal},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \strng{fullhash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \strng{bibnamehash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \strng{authorbibnamehash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \strng{authornamehash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \strng{authorfullhash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \field{sortinit}{G}
-      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{day}{1}
-      \field{journaltitle}{BioScience}
-      \field{month}{6}
-      \field{shorttitle}{Neurobiology of {{Caenorhabditis}} Elegans {{Locomotion}}}
-      \field{title}{Neurobiology of {{Caenorhabditis}} Elegans {{Locomotion}}: {{Where Do We Stand}}?}
-      \field{year}{2014}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1093/biosci/biu058
-      \endverb
-    \endentry
-    \entry{keener1983}{article}{}
-      \name{author}{1}{}{%
-        {{hash=17a24410d9cf37a18d343037c1b696b7}{%
-           family={Keener},
-           familyi={K\bibinitperiod},
-           given={James\bibnamedelima P.},
-           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{17a24410d9cf37a18d343037c1b696b7}
-      \strng{fullhash}{17a24410d9cf37a18d343037c1b696b7}
-      \strng{bibnamehash}{17a24410d9cf37a18d343037c1b696b7}
-      \strng{authorbibnamehash}{17a24410d9cf37a18d343037c1b696b7}
-      \strng{authornamehash}{17a24410d9cf37a18d343037c1b696b7}
-      \strng{authorfullhash}{17a24410d9cf37a18d343037c1b696b7}
-      \field{sortinit}{K}
-      \field{sortinithash}{9fd838a31ba64d981e8f44562bd33f89}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Systems, Man, and Cybernetics}
-      \field{month}{9}
-      \field{shortjournal}{IEEE Trans. Syst., Man, Cybern.}
-      \field{title}{Analog Circuitry for the van Der {{Pol}} and {{FitzHugh}}-{{Nagumo}} Equations}
-      \field{year}{1983}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1109/TSMC.1983.6313098
-      \endverb
-    \endentry
-    \entry{olivares2019}{report}{}
-      \name{author}{3}{}{%
-        {{hash=fbe3051e05dbfb116b931e1f1552b5d5}{%
-           family={Olivares},
-           familyi={O\bibinitperiod},
-           given={Erick},
-           giveni={E\bibinitperiod}}}%
-        {{hash=2dbe42a62d587b74049518f69f8c4c89}{%
-           family={Izquierdo},
-           familyi={I\bibinitperiod},
-           given={Eduardo\bibnamedelima J.},
-           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=0dec8653c302107837212e06ab20dc92}{%
-           family={Beer},
-           familyi={B\bibinitperiod},
-           given={Randall\bibnamedelima D.},
-           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{488b37914ed37acc6e20d21684ff8251}
-      \strng{fullhash}{488b37914ed37acc6e20d21684ff8251}
-      \strng{bibnamehash}{488b37914ed37acc6e20d21684ff8251}
-      \strng{authorbibnamehash}{488b37914ed37acc6e20d21684ff8251}
-      \strng{authornamehash}{488b37914ed37acc6e20d21684ff8251}
-      \strng{authorfullhash}{488b37914ed37acc6e20d21684ff8251}
-      \field{sortinit}{O}
-      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{22}
-      \field{month}{7}
-      \field{title}{A Neuromechanical Model of Multiple Network Oscillators for Forward Locomotion in {{{\emph{C}}}}{\emph{. Elegans}}}
-      \field{type}{preprint}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.1101/710566
-      \endverb
-    \endentry
+  \datalist[entry]{none/global//global/global}
     \entry{xu2018}{article}{}
       \name{author}{9}{}{%
         {{hash=0a0153763d63ad5881a9a56a834fad10}{%
@@ -177,16 +69,16 @@
       }
       \strng{namehash}{fbc3fc940f971ec266f071d260fd9e5d}
       \strng{fullhash}{ee611c63469990c2687577289d97cf80}
-      \strng{bibnamehash}{fbc3fc940f971ec266f071d260fd9e5d}
-      \strng{authorbibnamehash}{fbc3fc940f971ec266f071d260fd9e5d}
+      \strng{bibnamehash}{ee611c63469990c2687577289d97cf80}
+      \strng{authorbibnamehash}{ee611c63469990c2687577289d97cf80}
       \strng{authornamehash}{fbc3fc940f971ec266f071d260fd9e5d}
       \strng{authorfullhash}{ee611c63469990c2687577289d97cf80}
-      \field{sortinit}{X}
-      \field{sortinithash}{b0b62a29ee4a21a0e618fed53a0313cc}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{8}
-      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{journaltitle}{PNAS}
       \field{month}{5}
       \field{shortjournal}{Proc Natl Acad Sci USA}
       \field{title}{Descending Pathway Facilitates Undulatory Wave Propagation in {{{\emph{Caenorhabditis}}}}{\emph{ Elegans}} through Gap Junctions}
@@ -195,6 +87,113 @@
       \true{nocite}
       \verb{doi}
       \verb 10.1073/pnas.1717022115
+      \endverb
+    \endentry
+    \entry{olivares2019}{report}{}
+      \name{author}{3}{}{%
+        {{hash=fbe3051e05dbfb116b931e1f1552b5d5}{%
+           family={Olivares},
+           familyi={O\bibinitperiod},
+           given={Erick},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2dbe42a62d587b74049518f69f8c4c89}{%
+           family={Izquierdo},
+           familyi={I\bibinitperiod},
+           given={Eduardo\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0dec8653c302107837212e06ab20dc92}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Randall\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{71851f1667e0ecbea94a296191b26a99}
+      \strng{fullhash}{488b37914ed37acc6e20d21684ff8251}
+      \strng{bibnamehash}{488b37914ed37acc6e20d21684ff8251}
+      \strng{authorbibnamehash}{488b37914ed37acc6e20d21684ff8251}
+      \strng{authornamehash}{71851f1667e0ecbea94a296191b26a99}
+      \strng{authorfullhash}{488b37914ed37acc6e20d21684ff8251}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{7}
+      \field{title}{A Neuromechanical Model of Multiple Network Oscillators for Forward Locomotion in {{{\emph{C}}}}{\emph{. Elegans}}}
+      \field{type}{preprint}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1101/710566
+      \endverb
+    \endentry
+    \entry{keener1983}{article}{}
+      \name{author}{1}{}{%
+        {{hash=17a24410d9cf37a18d343037c1b696b7}{%
+           family={Keener},
+           familyi={K\bibinitperiod},
+           given={James\bibnamedelima P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{17a24410d9cf37a18d343037c1b696b7}
+      \strng{fullhash}{17a24410d9cf37a18d343037c1b696b7}
+      \strng{bibnamehash}{17a24410d9cf37a18d343037c1b696b7}
+      \strng{authorbibnamehash}{17a24410d9cf37a18d343037c1b696b7}
+      \strng{authornamehash}{17a24410d9cf37a18d343037c1b696b7}
+      \strng{authorfullhash}{17a24410d9cf37a18d343037c1b696b7}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Trans. Syst., Man, Cybern.}
+      \field{month}{9}
+      \field{title}{Analog Circuitry for the van Der {{Pol}} and {{FitzHugh}}-{{Nagumo}} Equations}
+      \field{year}{1983}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1109/TSMC.1983.6313098
+      \endverb
+    \endentry
+    \entry{gjorgjieva2014}{article}{}
+      \name{author}{3}{}{%
+        {{hash=557194da12763243440e9402d4ffaf30}{%
+           family={Gjorgjieva},
+           familyi={G\bibinitperiod},
+           given={Julijana},
+           giveni={J\bibinitperiod}}}%
+        {{hash=135dcf78e7a1eb2b7250686dad1bd197}{%
+           family={Biron},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b8450b545fb81e039132859d2fba9061}{%
+           family={Haspel},
+           familyi={H\bibinitperiod},
+           given={Gal},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{140c8cee03b998cac43107b2010fdbe4}
+      \strng{fullhash}{ee6ebb7bac9fe09e2686d62da040183e}
+      \strng{bibnamehash}{ee6ebb7bac9fe09e2686d62da040183e}
+      \strng{authorbibnamehash}{ee6ebb7bac9fe09e2686d62da040183e}
+      \strng{authornamehash}{140c8cee03b998cac43107b2010fdbe4}
+      \strng{authorfullhash}{ee6ebb7bac9fe09e2686d62da040183e}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{1}
+      \field{journaltitle}{BioScience}
+      \field{month}{6}
+      \field{shorttitle}{Neurobiology of {{Caenorhabditis}} Elegans {{Locomotion}}}
+      \field{title}{Neurobiology of {{Caenorhabditis}} Elegans {{Locomotion}}: {{Where Do We Stand}}?}
+      \field{year}{2014}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1093/biosci/biu058
       \endverb
     \endentry
   \enddatalist

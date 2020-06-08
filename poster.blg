@@ -1,15 +1,15 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is 'poster.blg'
-[38] biber-darwin:315> INFO - === Mon Jun  8, 2020, 12:13:10
-[59] Biber.pm:371> INFO - Reading 'poster.bcf'
-[161] Biber.pm:886> INFO - Using all citekeys in bib section 0
-[174] Biber.pm:4093> INFO - Processing section 0
-[184] Biber.pm:4254> INFO - Looking for bibtex format file 'poster.bib' for section 0
-[185] bibtex.pm:1523> INFO - LaTeX decoding ...
+[44] biber-darwin:315> INFO - === Mon Jun  8, 2020, 14:26:23
+[69] Biber.pm:371> INFO - Reading 'poster.bcf'
+[166] Biber.pm:886> INFO - Using all citekeys in bib section 0
+[179] Biber.pm:4093> INFO - Processing section 0
+[191] Biber.pm:4254> INFO - Looking for bibtex format file 'poster.bib' for section 0
+[192] bibtex.pm:1523> INFO - LaTeX decoding ...
 [197] bibtex.pm:1340> INFO - Found BibTeX data source 'poster.bib'
-[241] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[241] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[241] Biber.pm:3921> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[241] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[246] bbl.pm:636> INFO - Writing 'poster.bbl' with encoding 'UTF-8'
-[248] bbl.pm:739> INFO - Output to poster.bbl
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[233] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[233] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[234] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[238] bbl.pm:636> INFO - Writing 'poster.bbl' with encoding 'UTF-8'
+[241] bbl.pm:739> INFO - Output to poster.bbl

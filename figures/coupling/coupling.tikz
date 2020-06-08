@@ -1,4 +1,4 @@
-\begin{tikzpicture}[scale = 1.5, circuitikz/bipoles/length=2cm]
+\begin{tikzpicture}[scale = 1.3, circuitikz/bipoles/length=2cm]
   % First we draw the positive coupling
 
   \node [neuron] (ns0) at (0, 0) {N0};

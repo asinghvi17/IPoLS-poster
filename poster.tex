@@ -1,5 +1,6 @@
 % Gemini theme
 % https://github.com/anishathalye/gemini
+% Modified by Anshul Singhvi in June 2020
 
 \documentclass[final]{beamer}
 
@@ -19,7 +20,7 @@
 % Bibliography setting
 \usepackage{paralist}
 \usepackage{xpatch}
-\usepackage[style=numeric]{biblatex}
+\usepackage[style=phys]{biblatex}
 \addbibresource{poster.bib}
 
 \usepackage{tikz, pgfplots}
@@ -118,7 +119,6 @@
 
 \footercontent{
   \href{https://youtu.be/5327kroOwCk}{See the APS March Meeting talk on YouTube} \hfill
-  International Physics of Living Systems, 2020 \hfill
   \href{mailto:asinghvi17@simons-rock.edu}{asinghvi17@simons-rock.edu}}
 % (can be left out to remove footer)
 
@@ -129,7 +129,6 @@
 % use this to include logos on the left and/or right side of the header:
 \logoleft{ \includegraphics[width=13cm]{figures/logos/sr.pdf}}
 \logoright{\includegraphics[width=13cm]{figures/logos/vassar.pdf}}
-
 
 % ====================
 % Body
@@ -155,12 +154,12 @@
     The FitzHugh-Nagumo equations have the form:
     \[
     \begin{aligned}
-        &\frac{d v}{d t} = f(v) - w + I_{ext} + \color{forestgreen}{D \cdot (v_\mathrm{driving} - v)}\\
+        &\frac{d v}{d t} = f(v) - w + I_{ext} + \color{srred}{D \cdot (v_\mathrm{driving} - v)}\\
         &\frac{d w}{d t} = \epsilon(v - \gamma w + \beta)\\
         &f(v) = v - \frac{v^3}{3}
     \end{aligned}
     \]
-    where $v$ is the membrane potential, $w$ is a slow inhibitor variable, AND $\epsilon$, $\gamma$ and $\beta$ are constants.  It turns out that $f(v)$ can be any cubic-like function which sufficiently approximates $v - v^3/3$.
+    where $v$ is the membrane potential, $w$ is a slow inhibitor variable, and $\epsilon$, $\gamma$ and $\beta$ are constants.  It turns out that $f(v)$ can be any cubic-like function which sufficiently approximates $v - v^3/3$.
     A method for diffusive inter-neuron coupling has been introduced in green.  $D$ is the diffusion coefficient, and can be positive (excitatory synapses, gap junctions) or negative (inhibitory junctions).  The quantity scaled by $D$ is simply the voltage difference between the driving neuron and the driven one.
 
 \end{block}
@@ -202,7 +201,11 @@
         \caption{A comparison between simulation and analog implementation.  Coupled systems of neurons can be used to describe all relevant dynamics of the CPG; in this instance, we use the head oscillator (mutually inhibitory coupling) and a single pair of ventral neurons with positive coupling, to simulate impulse propagation along the descending pathway.}
     \end{figure}
 
-  \end{block}
+    \begin{figure}
+        \includegraphics[width=0.8\colwidth]{figures/worm_neuron_dash/worm_neuron_dash}
+        \caption{}
+    \end{figure}
+\end{block}
 
 \end{column}
 
@@ -237,7 +240,8 @@
     \begin{block}{References}
 
     \nocite{*}
-    \footnotesize{\printbibliography[heading = none]}
+    \AtNextBibliography{\small}
+    {\printbibliography[heading = none]}
 
     \end{block}
 
@@ -246,5 +250,6 @@
 \separatorcolumn
 \end{columns}
 \end{frame}
+
 
 \end{document}
