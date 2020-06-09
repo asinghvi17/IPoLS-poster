@@ -111,7 +111,7 @@
 
 \author{Anshul Singhvi \inst{1, 3} \and Harold Hastings \inst{1} \and Jenny Magnes \inst{2} \and Cheris Congo \inst{2} \and Miranda Hulsey-Vincent \inst{2} \and Rifah Tasnim \inst{1} \and Naol Negassa \inst{1}}
 
-\institute[shortinst]{\inst{1} Bard College at Simon's Rock \samelineand \inst{2} Vassar University \samelineand \inst{3} Columbia University}
+\institute[shortinst]{\inst{1} Bard College at Simon's Rock \samelineand \inst{2} Vassar College \samelineand \inst{3} Columbia University}
 
 % ====================
 % Footer (optional)
@@ -146,7 +146,7 @@
 
   \begin{block}{Abstract}
 
-      The small (1 mm) nematode \emph{Caenorhabditis elegans} has become widely used as a model organism; in particular the \emph{C. elegans} connectome has been completely mapped, and \emph{C. elegans} locomotion has been widely studied (c.f. http://www.wormbook.org). We describe a minimal reaction-diffusion model for the \emph{C. elegans}. This may be considered a simple model for Xu et al.'s "descending pathway" description of the \emph{C. elegans} central pattern generator (CPG) \cite{xu2018}. Olivares \emph{et al} \cite{olivares2019} present a likely more realistic model which relies on small networks of neurons, and presents a distributed model of the CPG. In particular, we use simulation methods to show that a small network of FitzHugh-Nagumo neurons (one of the simplest neuronal models) can generate key features of \emph{C. elegans} undulation, and thus locomotion.  Finally, we recreate the required oscillations and coupling with a network of coupled Keener \cite{keener1983} analog neurons.
+      The small (1 mm) nematode \emph{Caenorhabditis elegans} has become widely used as a model organism; in particular the \emph{C. elegans} connectome has been completely mapped, and \emph{C. elegans} locomotion has been widely studied (c.f. http://www.wormbook.org). We describe a minimal reaction-diffusion model for the \emph{C. elegans}. This may be considered a simple model for Xu et al.'s "descending pathway" description of the \emph{C. elegans} central pattern generator (CPG) \cite{xu2018}. Olivares \emph{et al} \cite{olivares2019} present a likely more realistic model which relies on small networks of neurons, and presents a distributed model of the CPG. In particular, we use simulation methods to show that a small network of FitzHugh-Nagumo neurons (one of the simplest neuronal models) can generate key features of \emph{C. elegans} undulation (wavelength, worm shape), and thus locomotion.  Finally, we recreate the required oscillations and coupling with a network of coupled Keener \cite{keener1983} analog neurons.
 
   \end{block}
 
@@ -197,13 +197,13 @@
   \begin{block}{Simulation and experimental data}
 
     \begin{figure}
-        \includegraphics[width=0.9\colwidth]{figures/anal_sim/anal_sim}
+        \includegraphics[width=0.7\colwidth]{figures/anal_sim/anal_sim}
         \caption{A comparison between simulation and analog implementation.  Coupled systems of neurons can be used to describe all relevant dynamics of the CPG; in this instance, we use the head oscillator (mutually inhibitory coupling) and a single pair of ventral neurons with positive coupling, to simulate impulse propagation along the descending pathway.}
     \end{figure}
 
     \begin{figure}
         \includegraphics[width=0.8\colwidth]{figures/worm_neuron_dash/worm_neuron_dash}
-        \caption{}
+        \caption{A "dashboard view" representing the neuron and worm.  The first two figures are the potentials of the ventral and dorsal neurons, respectively; the bottom series of panels are "images" of the simulated worm at different timepoints.  The worm was simulated by running the neuron potentials through a Gaussian filter to simulate muscle dampening, then taking the amplitude as an angular displacement, representing contraction or relaxation.}
     \end{figure}
 \end{block}
 
@@ -240,7 +240,7 @@
     \begin{block}{References}
 
     \nocite{*}
-    \AtNextBibliography{\small}
+    \AtNextBibliography{\tiny}
     {\printbibliography[heading = none]}
 
     \end{block}
