@@ -19,6 +19,41 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{izquierdo2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2dbe42a62d587b74049518f69f8c4c89}{%
+           family={Izquierdo},
+           familyi={I\bibinitperiod},
+           given={Eduardo\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=0dec8653c302107837212e06ab20dc92}{%
+           family={Beer},
+           familyi={B\bibinitperiod},
+           given={Randall\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{6c24ef6d51d42bac8118d8964e651a64}
+      \strng{fullhash}{6c24ef6d51d42bac8118d8964e651a64}
+      \strng{bibnamehash}{6c24ef6d51d42bac8118d8964e651a64}
+      \strng{authorbibnamehash}{6c24ef6d51d42bac8118d8964e651a64}
+      \strng{authornamehash}{6c24ef6d51d42bac8118d8964e651a64}
+      \strng{authorfullhash}{6c24ef6d51d42bac8118d8964e651a64}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{19}
+      \field{journaltitle}{Phil. Trans. R. Soc. B}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{title}{From Head to Tail: A Neuromechanical Model of Forward Locomotion in {{{\emph{Caenorhabditis}}}} {\emph{Elegans}}}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \true{nocite}
+      \verb{doi}
+      \verb 10.1098/rstb.2017.0374
+      \endverb
+    \endentry
     \entry{xu2018}{article}{}
       \name{author}{9}{}{%
         {{hash=0a0153763d63ad5881a9a56a834fad10}{%
@@ -73,8 +108,8 @@
       \strng{authorbibnamehash}{ee611c63469990c2687577289d97cf80}
       \strng{authornamehash}{fbc3fc940f971ec266f071d260fd9e5d}
       \strng{authorfullhash}{ee611c63469990c2687577289d97cf80}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{8}
@@ -113,8 +148,8 @@
       \strng{authorbibnamehash}{488b37914ed37acc6e20d21684ff8251}
       \strng{authornamehash}{71851f1667e0ecbea94a296191b26a99}
       \strng{authorfullhash}{488b37914ed37acc6e20d21684ff8251}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{day}{22}
@@ -142,8 +177,8 @@
       \strng{authorbibnamehash}{17a24410d9cf37a18d343037c1b696b7}
       \strng{authornamehash}{17a24410d9cf37a18d343037c1b696b7}
       \strng{authorfullhash}{17a24410d9cf37a18d343037c1b696b7}
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Trans. Syst., Man, Cybern.}
@@ -180,8 +215,8 @@
       \strng{authorbibnamehash}{ee6ebb7bac9fe09e2686d62da040183e}
       \strng{authornamehash}{140c8cee03b998cac43107b2010fdbe4}
       \strng{authorfullhash}{ee6ebb7bac9fe09e2686d62da040183e}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{day}{1}
