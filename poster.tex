@@ -146,7 +146,10 @@
 
   \begin{block}{Abstract}
 
-      The small (1 mm) nematode \emph{Caenorhabditis elegans} has become widely used as a model organism; in particular the \emph{C. elegans} connectome has been completely mapped, and \emph{C. elegans} locomotion has been widely studied (c.f. http://www.wormbook.org). We describe a minimal reaction-diffusion model for the \emph{C. elegans}. This may be considered a simple model for Xu et al.'s "descending pathway" description of the \emph{C. elegans} central pattern generator (CPG) \cite{xu2018}. Olivares \emph{et al} \cite{olivares2019} present a likely more realistic model which relies on small networks of neurons, and presents a distributed model of the CPG. In particular, we use simulation methods to show that a small network of FitzHugh-Nagumo neurons (one of the simplest neuronal models) can generate key features of \emph{C. elegans} undulation (wavelength, worm shape), and thus locomotion.  Finally, we recreate the required oscillations and coupling with a network of coupled Keener \cite{keener1983} analog neurons.
+      % The small (1 mm) nematode \emph{Caenorhabditis elegans} has become widely used as a model organism; in particular the \emph{C. elegans} connectome has been completely mapped, and \emph{C. elegans} locomotion has been widely studied (c.f. http://www.wormbook.org). We describe a minimal reaction-diffusion model for the \emph{C. elegans}. This may be considered a simple model for Xu et al.'s "descending pathway" description of the \emph{C. elegans} central pattern generator (CPG) \cite{xu2018}. Olivares \emph{et al} \cite{olivares2019} present a likely more realistic model which relies on small networks of neurons, and presents a distributed model of the CPG. In particular, we use simulation methods to show that a small network of FitzHugh-Nagumo neurons (one of the simplest neuronal models) can generate key features of \emph{C. elegans} undulation (wavelength, worm shape), and thus locomotion.  Finally, we recreate the required oscillations and coupling with a network of coupled Keener \cite{keener1983} analog neurons.
+
+      The small (1 mm) nematode \emph{Caenorhabditis elegans} has become widely used as a model organism; in particular, the \emph{C. elegans} connectome has been completely mapped, and \emph{C. elegans} locomotion has been widely studied (c.f. http://www.wormbook.org). We describe a minimal network of FitzHugh-Nagumo neurons, coupled through diffusion, which generates key features of \emph{C. elegans} undulation, and thus locomotion. This network may be considered as a simple biomimetic realization of the Izquierdo-Beer neuroanatomical model \cite{izquierdo2018} for the \emph{C. elegans} and also Xu et al.’s ”descending pathway” description of the \emph{C. elegans} central pattern generator (CPG) \cite{xu2018}. Olivares et al \cite{olivares2019} present a likely more realistic model which relies on small networks of neurons, and presents a distributed model of the CPG. Finally, we realize our reaction-diffusion simulation with a network of coupled Keener \cite{keener1983} analog neurons.
+
 
   \end{block}
 
@@ -203,7 +206,7 @@
 
     \begin{figure}
         \includegraphics[width=0.8\colwidth]{figures/worm_neuron_dash/worm_neuron_dash}
-        \caption{A "dashboard view" representing the neuron and worm.  The first two figures are the potentials of the ventral and dorsal neurons, respectively; the bottom series of panels are "images" of the simulated worm at different timepoints.  The worm was simulated by running the neuron potentials through a Gaussian filter to simulate muscle dampening, then taking the amplitude as an angular displacement, representing contraction or relaxation.}
+        \caption{A "dashboard view" representing the neuron and worm.  (a) shows the potentials of the ventral neurons, coloured by number running down the worm.  (b) shows "images" of the simulated worm at different timepoints.  The worm was simulated by running the neuron potentials through a Gaussian filter to simulate muscle dampening, then taking the amplitude as an angular displacement, representing contraction or relaxation.  (c) shows images of a real \emph{C. elegans} in a cuvette, taken via shadow imaging.}
     \end{figure}
 \end{block}
 
@@ -221,23 +224,24 @@
         \caption{Our circuit (modified from \cite{keener1983}), simulating one Keener neuron.}
     \end{figure}
 
-    The FitzHugh-Nagumo equations translate directly into a circuit that uses inductors, as $L = \frac{dI}{dt}$; however, that is an expensive and impractical solution due to mutual inductance effects.  Keener's circuit proposes a simulation of the inductors with operational amplifiers, which make the circuit considerably cheaper and stabler, and allow for a linear piecewise voltage response (from the op-amp) rather than a cubic one (from Nagumo's tunnel diode), resolving the issue of long-term stability.
-
+    The FitzHugh-Nagumo equations translate directly into a circuit that uses inductors, as $L = \frac{dI}{dt}$; however, that is an expensive and impractical solution due to mutual inductance effects.  Keener's circuit proposes a simulation of the inductors with operational amplifiers, which make the circuit considerably cheaper and stabler (see \cite{keener1983} for more details).
     The frequency of oscillation changes with the values of the components, as well as the bias voltage, but is approximately $\SI{2}{\hertz}$ with the circuit values here.
 
-
-    \heading{Coupling}
-
-    We have implemented simple diffusion techniques, using a resistor to vary the coupling strength.  Excitatory (positive-coefficient) coupling is implemented by a simple resistor, whereas inhibitory (negative-coefficient) coupling is implemented by an inverting amplifier, constructed using an operational amplifier and two resistors.
-
-    \begin{figure}
-        \centering
-        \inputtikz{figures/coupling/coupling}
-        \caption{Different inter-neuronal coupling mechanisms.}
-    \end{figure}
+    We have implemented simple diffusive coupling techniques, using a resistor to vary the coupling strength.  Excitatory (positive-coefficient) coupling is implemented by a simple resistor, whereas inhibitory (negative-coefficient) coupling is implemented by an inverting amplifier, constructed using an operational amplifier and two resistors.  For extra safety, a follower can also be added to avoid loading the driving neuron's circuit.
 
     \end{block}
+
+    \begin{block}{Conclusion}
+
+    We have shown that the undulatory motion of \emph{C. elegans} can be simulated using a structured CPG, with a head oscillator driving a descending pathway, and simple biomimetic neurons.  This system is computationally cheap, and translates to a simple analog circuit.  Our model of the nematode is surprisingly similar to real unconstrained motion.  While most measurements of \emph{C. elegans} are taken on horizontal agar sheets, observations made in clear, water-filled cuvettes where the worm floats freely seem to resemble our simulated worm more.  Our model exhibits key features of the nematode's movement; namely the shape, sinusoidal oscillations, a travelling wave down the worm, and the correct spatial wavelength.
+
+    Given the flexibility of the model, by introducing defects and asymmetries into the topology, future work can study how mutations affect the nematode's motion, as well as the structures underlying differences in phenotypes.  Additionally, the effects of external forcing on the head oscillator can be observed.
+
+    \end{block}
+
     \begin{block}{References}
+
+    \vspace{-.8em}
 
     \nocite{*}
     \AtNextBibliography{\tiny}
