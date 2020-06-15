@@ -27,6 +27,6 @@
   \draw [-Latex] (3v.east) -- ($(3v.east) + (1, 0)$) node [right] {Additional neurons};
   \draw [-Latex] (3d.east) -- ($(3d.east) + (1, 0)$) node [right] {Additional neurons};
 
-  \draw [decorate, decoration={brace, mirror, raise=3pt}] ($(1d.south west) + (-3mm + 1, -3mm)$) -- ($(3d.south east) + (3mm, -3mm)$) node [midway, below=13pt] {Descending pathway [1]};
+  \draw [decorate, decoration={brace, mirror, raise=3pt}] ($(1d.south west) + (-3mm + 1, -3mm)$) -- ($(3d.south east) + (3mm, -3mm)$) node [midway, below=13pt] {Descending pathway [5]};
 
 \end{tikzpicture}
